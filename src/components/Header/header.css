@@ -15,6 +15,12 @@
   height: auto;
 }
 
+.h1-title {
+  color: #EA0000;
+  font-size: 1.1em;
+  margin: 55px 15px;
+}
+
 /* Media query for mobile compatibility*/
 @media (max-width: 768px) {
   .header {
