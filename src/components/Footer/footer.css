@@ -7,10 +7,10 @@
 }
 
 /* Custom Cursors */
-.app {
+.footer {
   cursor: url(../../assets/select.png), auto;
 }
 
-.app button {
+.footer button {
   cursor: url(../../assets/target.png), auto;
 }
