@@ -25,6 +25,9 @@
 @media (max-width: 768px) {
   .header {
       flex-direction: column;
-      padding: 18px;
+  }
+
+  .h1-title {
+    font-size: 80%;
   }
 }
