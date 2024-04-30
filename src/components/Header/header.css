@@ -31,3 +31,12 @@
     font-size: 80%;
   }
 }
+
+/* Custom Cursors */
+.header {
+  cursor: url(../../assets/select.png), auto;
+}
+
+.header button {
+  cursor: url(../../assets/target.png), auto;
+}
