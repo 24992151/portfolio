@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #161415;
+  font-size: 18px;
+}
+
+.logo-container {
+  width: 140px;
+  height: 140px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for mobile compatibility*/
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      padding: 18px;
+  }
+}
