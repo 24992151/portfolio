@@ -1,0 +1,15 @@
+/* Hero Image */
+.heroimage {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Custom Cursors */
+.app {
+  cursor: url(../../assets/select.png), auto;
+}
+
+.app button {
+  cursor: url(../../assets/target.png), auto;
+}
