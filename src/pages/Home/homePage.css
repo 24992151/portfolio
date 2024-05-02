@@ -5,6 +5,15 @@
   object-fit: cover;
 }
 
+#bglive {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
 /* Portfolio Cards */
 .portfolio-cards {
   position: absolute;
@@ -16,6 +25,7 @@
 }
 
 .card {
+  text-decoration: none;
   position: relative;
   flex: 1 0 20%;
   margin: 1em;
@@ -173,11 +183,16 @@
 
 /* Media query for mobile compatibility*/
 @media (max-width: 768px) {
+  .grid-container {
+    display: block;
+  }
+
+  /* Portfolio Mobile */
   .portfolio-cards {
-      width: 78%;
-      top:30%;
-      left: 15%;
-      padding: 18px;
+    width: 78%;
+    top: 30%;
+    left: 15%;
+    padding: 18px;
   }
 
   .card-content {
@@ -185,9 +200,45 @@
     visibility: hidden;
   }
 
+  /* About Mobile */
   .about-me {
     font-size: 80%;
   }
+
+  /* Timeline Mobile */
+  .timeline-image {
+    width: 70%;
+  }
+
+  /* Skills Mobile */
+  .skills ul li {
+    font-size: 80%;
+  }
+
+  .skills {
+    width: 85%;
+    font-size: 80%;
+  }
+
+  /* Location and Contact Mobile */
+  .bottom-section {
+    display: block;
+  }
+
+  .location {
+    width: 85%;
+  }
+
+  .iframe {
+    width: 350px;
+    height:300px;
+  }
+
+  .contact {
+    width: 78%;
+    padding-left: 12%;
+  }
+
 }
 
 /* Custom Cursors */
