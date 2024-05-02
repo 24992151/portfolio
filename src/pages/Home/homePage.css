@@ -72,11 +72,110 @@
   color: #EA0000;
 }
 
+/* About Me */
+.about-me {
+  background-color: #e7e7e7;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 20px;
+}
+
+.about-me h2 {
+  color: #EA0000;
+}
+
+/* About CSS-Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+  grid-template-rows: 1000px 150px;
+  gap: 10px;
+}
+
+.timeline {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.timeline-image {
+  padding-left:50px;
+  width: 80%;
+  max-width: 605px;
+  height: auto;
+}
+
+/* Skills Section */
+.top-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 2fr;
+}
+
+.skills {
+  grid-row: 1;
+}
+
+.skills ul li {
+  font-size: 20px;
+}
+
+/* Location and Contact Section */
+.bottom-section {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-template-rows: 360px 150px;
+  position: static;
+}
+
+.location {
+  grid-column: 1;
+}
+
+/* Google Embed */
+.iframe {
+  width: 700px;
+  height: 300px;
+}
+
+/* Contact Me */
+.contact {
+  grid-column: 2;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.contact-logo {
+  padding-top: 50%;
+  padding-left: 5px;
+  width: 100px;
+  height: auto;
+}
+
+/* Section Styling */
+.timeline, .skills, .location, .contact {
+  background-color: #e7e7e7;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.section-title {
+  color: #EA0000;
+  text-align: center;
+}
+
 /* Media query for mobile compatibility*/
 @media (max-width: 768px) {
   .portfolio-cards {
       width: 78%;
-      top:34%;
+      top:30%;
       left: 15%;
       padding: 18px;
   }
@@ -96,6 +195,6 @@
   cursor: url(../../assets/select.png), auto;
 }
 
-.app button {
+.app button, .app a {
   cursor: url(../../assets/target.png), auto;
 }
