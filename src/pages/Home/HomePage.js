@@ -1,4 +1,6 @@
+// Import Links
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './homePage.css';
 import portfoliohero from '../../assets/portfoliohero.jpg';
 import pwib from '../../assets/pwib.png';
@@ -8,6 +10,7 @@ import timelineimage from '../../assets/timeline.png';
 import fblogo from '../../assets/fblogo.png';
 import linkedinlogo from '../../assets/linkedinlogo.png';
 import gitlogo from '../../assets/gitlogo.png';
+import bglive from '../../assets/bglive.mp4';
 
 
 const HomePage = () => {
@@ -18,29 +21,41 @@ const HomePage = () => {
         <img src={portfoliohero} alt="portfoliohero" className="heroimage" />
       </section>
 
+      <section>
+        <video autoPlay muted loop id="bglive">
+          <source src={bglive} type="video/mp4" />
+        </video>
+      </section>
+
       {/* Portfolio Cards */}
       <section className="portfolio-cards">
-        <section className="card">
-          <div className="card-overlay"></div>
-          <img src={pwib} alt="JDM Dynasty" />
-          <section className="card-content">
-            <h2>JDM Dynasty</h2>
+        <Link to="/JdmPage" className="card">
+          <section>
+            <div className="card-overlay"></div>
+            <img src={pwib} alt="JDM Dynasty" />
+            <section className="card-content">
+              <h2>JDM Dynasty</h2>
+            </section>
           </section>
-        </section>
-        <section className="card">
-          <div className="card-overlay"></div>
-          <img src={pworkout} alt="Pine Gym System" />
-          <section className="card-content">
-            <h2>Pine Gym</h2>
+        </Link>
+        <Link to="/GymPage" className="card">
+          <section>
+            <div className="card-overlay"></div>
+            <img src={pworkout} alt="Pine Gym System" />
+            <section className="card-content">
+              <h2>Pine Gym</h2>
+            </section>
           </section>
-        </section>
-        <section className="card">
-          <div className="card-overlay"></div>
-          <img src={pdubai} alt="Dubai Landscapes" />
-          <section className="card-content">
-            <h2>Dubai Landscapes</h2>
+        </Link>
+        <Link to="/DubaiPage" className="card">
+          <section>
+            <div className="card-overlay"></div>
+            <img src={pdubai} alt="Dubai Landscapes" />
+            <section className="card-content">
+              <h2>Dubai Landscapes</h2>
+            </section>
           </section>
-        </section>
+        </Link>
       </section>
 
       {/* About Me */}
