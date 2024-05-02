@@ -37,6 +37,6 @@
   cursor: url(../../assets/select.png), auto;
 }
 
-.header button {
+.header button, .header a {
   cursor: url(../../assets/target.png), auto;
 }
