@@ -1,0 +1,72 @@
+/* Page */
+.page {
+  display: flex;
+  flex-direction: column;
+  cursor: url(  ../assets/select.png), auto;
+}
+
+.page button, .page a {
+  cursor: url(  ../assets/target.png), auto;
+}
+
+/* Project Video */
+.video {
+  padding-top: 1%;
+  padding-left: 10%;
+  width: 80%;
+  height: auto;
+}
+
+.video video {
+  padding-left: 5%;
+  width: 90%;
+  height: 100%;
+}
+
+/* Project CSS Grid */
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.practices {
+  grid-column: 1 / span 1;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+}
+
+.links {
+  grid-column: 2 / span 1;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+}
+
+.included {
+  grid-column: 1 / span 2;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+}
+
+/* Styling - Projects */
+.practices, .links, .included {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: #EA0000;
+  text-align: center;
+}
+
+.url {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.url:hover {
+  color: #EA0000;
+}
