@@ -54,6 +54,7 @@
 .practices, .links, .included {
   padding: 20px;
   text-align: center;
+  font-size: 20px;
 }
 
 .title {
@@ -69,4 +70,27 @@
 
 .url:hover {
   color: #EA0000;
+}
+
+/* media Query Mobile */
+@media (max-width: 768px) {
+  .video video {
+    padding-left: 0%;
+    width: 100%;
+    height: auto;
+  }
+
+  .projects-container {
+    display: block;
+  }
+
+  .url {
+    font-size: 18px;
+  }
+
+  .practices, .links, .included {
+    padding: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
 }
