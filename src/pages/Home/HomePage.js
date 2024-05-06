@@ -29,7 +29,7 @@ const HomePage = () => {
 
       {/* Portfolio Cards */}
       <section className="portfolio-cards">
-        <Link to="/JdmPage" className="card">
+        <Link to="/jdm" className="card">
           <section>
             <div className="card-overlay"></div>
             <img src={pwib} alt="JDM Dynasty" />
@@ -38,7 +38,7 @@ const HomePage = () => {
             </section>
           </section>
         </Link>
-        <Link to="/GymPage" className="card">
+        <Link to="/gym" className="card">
           <section>
             <div className="card-overlay"></div>
             <img src={pworkout} alt="Pine Gym System" />
@@ -47,7 +47,7 @@ const HomePage = () => {
             </section>
           </section>
         </Link>
-        <Link to="/DubaiPage" className="card">
+        <Link to="/dubai" className="card">
           <section>
             <div className="card-overlay"></div>
             <img src={pdubai} alt="Dubai Landscapes" />
@@ -82,7 +82,7 @@ const HomePage = () => {
               <li>CSS3 - Using the likes of CSS Grid, Flexbox, Animations and Styling</li>
               <li>Javascript - Preferred Language paired with React and Node.js</li>
               <li>PHP - Minimal Worktime with PHP and mostly used with Back-End Projects</li>
-              <li>Python - Once again, can write in Python but barely used on any significant <projects></projects></li>
+              <li>Python - Once again, can write in Python but barely used on any significant</li>
             </ul>
             <h3>Frameworks</h3>
             <ul>
