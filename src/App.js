@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import HomePage from './pages/Home/HomePage';
-import Footer from './components/Footer/Footer';
+import JdmPage from './pages/Jdm/JdmPage';
 import GymPage from './pages/Gym/GymPage';
-import JDMPage from './pages/JDM/JdmPage';
 import DubaiPage from './pages/Dubai/DubaiPage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/jdm" element={<JdmPage />} />
           <Route path="/gym" element={<GymPage />} />
-          <Route path="/jdm" element={<JDMPage />} />
           <Route path="/dubai" element={<DubaiPage />} />
         </Routes>
       </div>
