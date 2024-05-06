@@ -1,3 +1,8 @@
+.app {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /* Hero Image */
 .heroimage {
   position: relative;
@@ -162,9 +167,9 @@
 }
 
 .contact-logo {
-  padding-top: 50%;
-  padding-left: 5px;
-  width: 100px;
+  padding-top: 60%;
+  padding-left: 25px;
+  width: 70px;
   height: auto;
 }
 
@@ -238,8 +243,8 @@
     width: 78%;
     padding-left: 12%;
   }
-
 }
+
 
 /* Custom Cursors */
 .app {
