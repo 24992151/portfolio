@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+Similarly again the node-modules were removed from the project to reduce file size, if you wish to run this file you can start a new react project and run it using 'npm start'. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
