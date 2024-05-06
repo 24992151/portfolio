@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e62fa7d8.css",
+    "main.js": "/static/js/main.e6291442.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/dubaivideo.mp4": "/static/media/dubaivideo.4c44e590982db614b966.mp4",
+    "static/media/jdmvideo.mp4": "/static/media/jdmvideo.cd39077710c4c5cc4069.mp4",
+    "static/media/bglive.mp4": "/static/media/bglive.f7b915b630ae007110ce.mp4",
+    "static/media/gymvideo.mp4": "/static/media/gymvideo.ac302335843a913373f4.mp4",
+    "static/media/portfoliohero.jpg": "/static/media/portfoliohero.4f14f879918bf0d4d38a.jpg",
+    "static/media/pworkout.png": "/static/media/pworkout.fc062471e5f9be3af680.png",
+    "static/media/pwib.png": "/static/media/pwib.c50b14dfe69f24fd9883.png",
+    "static/media/timeline.png": "/static/media/timeline.0311c02e7dfba027978c.png",
+    "static/media/pdubai.png": "/static/media/pdubai.32321697cd5ef862c763.png",
+    "static/media/JHLogo.jpg": "/static/media/JHLogo.84c069bec26fd7cb0505.jpg",
+    "static/media/fblogo.png": "/static/media/fblogo.e88a5b453c9d64617e71.png",
+    "static/media/gitlogo.png": "/static/media/gitlogo.d7890ef869b83f9375b1.png",
+    "static/media/linkedinlogo.png": "/static/media/linkedinlogo.e36469190b1aa22bb70f.png",
+    "index.html": "/index.html",
+    "main.e62fa7d8.css.map": "/static/css/main.e62fa7d8.css.map",
+    "main.e6291442.js.map": "/static/js/main.e6291442.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62fa7d8.css",
+    "static/js/main.e6291442.js"
+  ]
+}
